@@ -31,9 +31,9 @@ Jalur belajar disusun dalam **28 bab silabus** pada empat pilar:
 
 ![Bagian Jalur Belajar FlowJob yang memperlihatkan empat pilar dan visual konsep masing-masing](images/learning-pillars-desktop.webp)
 
-**Status materi penting:** per [halaman Tentang FlowJob](https://www.flowjob.id/about), pada 7 November 2026 **Bab 1 dan 2 tersedia dengan akses Bootcamp; 26 bab lainnya masih direncanakan**. Angka 28 menjelaskan cakupan silabus, bukan jumlah bab yang sudah bisa dibaca. Materi lama tidak lagi tersedia. Tidak ada jadwal terbit untuk bab yang direncanakan dalam README ini; periksa status terbaru dan hak akses di website sebelum membeli.
+**Yang tersedia saat peninjauan (7 November 2026):** [halaman Tentang FlowJob](https://www.flowjob.id/about) menyatakan **Bab 1 dan 2 dapat dibaca dengan akses Bootcamp; 26 bab lainnya masih direncanakan**. Bab 1 membahas pasar dan cara kerjanya; Bab 2 membedakan bursa, OTC, CEX, dan DEX. Angka 28 adalah cakupan silabus, bukan jumlah materi yang sudah terbit. Materi lama tidak lagi tersedia. Periksa status dan hak akses terbaru di website sebelum membeli.
 
-Bootcamp merupakan produk edukasi **sekali bayar**, bukan langganan jurnal. Harga yang ditampilkan di beranda saat peninjauan adalah **Rp3.500.000**; harga dan ketentuan yang berlaku mengikuti halaman pembelian. Broker, data pasar, platform pihak ketiga, dan modal trading tidak termasuk. Bootcamp tidak dijanjikan sebagai kelas live, pendampingan pribadi, sertifikasi, atau akses ke semua bab silabus hari ini.
+Bootcamp dibeli **sekali bayar**. Harga yang ditampilkan di beranda saat peninjauan adalah **Rp3.500.000**; harga akhir dan ketentuan mengikuti halaman pembelian. Broker, data pasar, platform pihak ketiga, dan modal trading tidak termasuk. FlowJob tidak menjanjikan kelas live, pendampingan pribadi, sertifikasi, atau tanggal terbit bagi bab yang masih direncanakan.
 
 ### Trading Journal: menilai praktik sendiri
 
@@ -47,21 +47,18 @@ Jurnal adalah alat pencatatan, **bukan rekening broker**: membuat akun pencatata
 
 ```mermaid
 flowchart TD
-    A[Kenali metode dan penawaran FlowJob] --> B{Kebutuhan utama}
-    B -->|Mencatat praktik| C[Foundation: Trading Journal dasar gratis]
-    B -->|Belajar terstruktur| D[Periksa silabus dan status materi]
-    D --> E{Memilih Bootcamp?}
-    E -->|Belum| C
-    E -->|Ya| F[Pembelian sekali bayar dan akses Bootcamp]
-    F --> G[Baca Bab 1–2 yang tersedia]
-    G --> H[Terapkan pemahaman dalam praktik sendiri]
-    C --> H
-    H --> I[Catat rencana, trade, dan evaluasi]
-    I --> J[Tinjau riwayat dan pelajaran]
-    J --> H
+    A[Kenali FlowJob] --> B{Pilih kebutuhan}
+    B -->|Mencatat| C[Foundation: jurnal gratis]
+    B -->|Belajar| D[Periksa silabus dan status bab]
+    D -->|Belum membeli| C
+    D -->|Beli Bootcamp sekali bayar| E[Baca Bab 1–2]
+    E --> F[Praktik dan catat keputusan]
+    C --> F
+    F --> G[Tinjau hasil dan proses]
+    G --> F
 ```
 
-Diagram menunjukkan hubungan dua jalur produk, **bukan** urutan layar pembayaran atau janji bahwa bab yang masih direncanakan sudah tersedia. Jurnal tetap berguna tanpa pembelian; Bootcamp memberi kerangka belajar yang dapat dibawa ke proses pencatatan dan ulasan.
+Foundation dapat digunakan tanpa Bootcamp. Jalur berbayar menambah akses ke bab yang sudah terbit, bukan otomatis ke seluruh 28 bab silabus.
 
 ## Keputusan produk
 
