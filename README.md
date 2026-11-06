@@ -6,6 +6,12 @@
 
 FlowJob membantu trader mendokumentasikan keputusan, bukan mencari sinyal. Trading Journal digunakan untuk mencatat dan meninjau aktivitas trading. Sisi edukasinya menyusun pembelajaran melalui empat perspektif: fondasi pasar, order flow, options flow, dan makro.
 
+## Tampilan beranda
+
+![Beranda publik FlowJob menampilkan visualisasi Volume Profile dan navigasi produk](images/homepage.webp)
+
+Cuplikan halaman publik tanpa login; tampilan produk dapat berubah.
+
 ## Gambaran produk
 
 - **Trading Journal:** ruang untuk mencatat aktivitas dan meninjau keputusan trading.
@@ -23,6 +29,6 @@ Kunjungi [flowjob.id](https://www.flowjob.id/) untuk melihat beranda dan katalog
 
 ## Tentang repositori ini
 
-Repositori ini hanya berisi dokumentasi portofolio. Source code aplikasi, konfigurasi deployment, data pengguna, credential, dan riwayat pengembangan internal tidak dipublikasikan. Tidak ada instruksi menjalankan aplikasi dari repositori ini.
+Repositori ini hanya berisi dokumentasi portofolio dan screenshot halaman publik. Source code aplikasi, konfigurasi deployment, data pengguna, credential, dan riwayat pengembangan internal tidak dipublikasikan. Tidak ada instruksi menjalankan aplikasi dari repositori ini.
 
 © 2026 FlowJob. All rights reserved.
