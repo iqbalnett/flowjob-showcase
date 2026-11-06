@@ -20,20 +20,20 @@ Pendekatannya berangkat dari empat pertanyaan: apa konteks pasar, di mana area y
 
 ### Bootcamp: belajar membaca pasar
 
-Jalur belajar disusun dalam **28 bab silabus** pada empat pilar:
+Kurikulum Bootcamp dirancang dalam empat pilar yang menghubungkan dasar pasar dengan pembacaan transaksi dan konteks yang lebih luas:
 
-| Pilar | Cakupan pembelajaran | Bab dalam silabus |
-| --- | --- | ---: |
-| **Pondasi** | Instrumen, tempat transaksi, risiko, dan dasar pembacaan chart. | 6 |
-| **Order Flow** | Transaksi, likuiditas, dan respons harga. | 9 |
-| **Options Flow** | Kontrak options, perubahan risiko, dan batas interpretasi aktivitas options. | 7 |
-| **Makro** | Data ekonomi, ekspektasi, kebijakan, dan reaksi antarpasar. | 6 |
+| Pilar | Pertanyaan yang dijawab |
+| --- | --- |
+| **Pondasi** | Apa yang diperdagangkan, di mana transaksi terjadi, dan risiko apa yang perlu dipahami? |
+| **Order Flow** | Apa yang dapat dibaca dari transaksi, likuiditas, dan respons harga? |
+| **Options Flow** | Bagaimana aktivitas options dibaca sebagai konteks tanpa menyimpulkan arah dari satu angka? |
+| **Makro** | Bagaimana data ekonomi, ekspektasi, dan kebijakan berkaitan dengan respons antarpasar? |
 
 ![Bagian Jalur Belajar FlowJob yang memperlihatkan empat pilar dan visual konsep masing-masing](images/learning-pillars-desktop.webp)
 
-**Yang tersedia saat peninjauan (7 November 2026):** [halaman Tentang FlowJob](https://www.flowjob.id/about) menyatakan **Bab 1 dan 2 dapat dibaca dengan akses Bootcamp; 26 bab lainnya masih direncanakan**. Bab 1 membahas pasar dan cara kerjanya; Bab 2 membedakan bursa, OTC, CEX, dan DEX. Angka 28 adalah cakupan silabus, bukan jumlah materi yang sudah terbit. Materi lama tidak lagi tersedia. Periksa status dan hak akses terbaru di website sebelum membeli.
+Bootcamp menyusun pembelajaran dari pengenalan instrumen dan mekanisme pasar menuju pembacaan aktivitas transaksi, options, dan makro. Visual di atas menunjukkan struktur kurikulum, bukan instruksi untuk membuka posisi. Materi belajar menjadi kerangka untuk menyusun pengamatan sendiri sebelum meninjau praktik di Trading Journal.
 
-Bootcamp dibeli **sekali bayar**. Harga yang ditampilkan di beranda saat peninjauan adalah **Rp3.500.000**; harga akhir dan ketentuan mengikuti halaman pembelian. Broker, data pasar, platform pihak ketiga, dan modal trading tidak termasuk. FlowJob tidak menjanjikan kelas live, pendampingan pribadi, sertifikasi, atau tanggal terbit bagi bab yang masih direncanakan.
+Bootcamp dibeli **sekali bayar**; harga dan ketentuan mengikuti website saat pembelian. Broker, data pasar, platform pihak ketiga, dan modal trading tidak termasuk dalam produk edukasi ini.
 
 ### Trading Journal: menilai praktik sendiri
 
@@ -48,21 +48,20 @@ Jurnal adalah alat pencatatan, **bukan rekening broker**: membuat akun pencatata
 ```mermaid
 flowchart TD
     A[Kenali FlowJob] --> B{Pilih kebutuhan}
-    B -->|Mencatat| C[Foundation: jurnal gratis]
-    B -->|Belajar| D[Periksa silabus dan status bab]
-    D -->|Belum membeli| C
-    D -->|Beli Bootcamp sekali bayar| E[Baca Bab 1–2]
+    B -->|Belajar membaca pasar| C[Bootcamp: empat pilar pembelajaran]
+    B -->|Mencatat praktik| D[Foundation: jurnal dasar gratis]
+    C --> E[Amati konteks, lokasi, dan bukti]
     E --> F[Praktik dan catat keputusan]
-    C --> F
+    D --> F
     F --> G[Tinjau hasil dan proses]
     G --> F
 ```
 
-Foundation dapat digunakan tanpa Bootcamp. Jalur berbayar menambah akses ke bab yang sudah terbit, bukan otomatis ke seluruh 28 bab silabus.
+Bootcamp menyediakan jalur edukasi; Foundation dapat digunakan untuk mencatat praktik tanpa membeli Bootcamp. Keduanya bertemu pada kebiasaan meninjau keputusan, bukan pada pemberian sinyal trading.
 
 ## Keputusan produk
 
-**Pisahkan silabus dari inventaris materi.** Empat pilar memperlihatkan arah belajar, tetapi status setiap bab harus tetap jelas sebelum pembelian. Menampilkan 28 judul tanpa membedakan bab terbit akan menciptakan ekspektasi yang keliru.
+**Rangkai pembelajaran sebagai satu metode.** Keempat pilar tidak berdiri sebagai daftar topik yang terpisah: Pondasi menjelaskan instrumen dan risiko, Order Flow menambah pembacaan transaksi, Options Flow memperluas konteks posisi, dan Makro menempatkan respons pasar terhadap peristiwa ekonomi. Urutan ini memberi pengguna kerangka pertanyaan sebelum memakai jurnal untuk meninjau praktik.
 
 **Pisahkan hasil dari kualitas keputusan.** Trade yang untung belum tentu mengikuti rencana; trade yang rugi belum tentu keliru dalam prosesnya. Karena itu jurnal menghubungkan akun, model, rincian transaksi, dan catatan harian sebelum hasilnya ditinjau melalui Analytics.
 
@@ -71,7 +70,7 @@ Foundation dapat digunakan tanpa Bootcamp. Jalur berbayar menambah akses ke bab 
 ## Sumber dan batas studi kasus
 
 - [Beranda FlowJob](https://www.flowjob.id/) — metode, empat pilar, penawaran, dan biaya di luar produk.
-- [Tentang FlowJob](https://www.flowjob.id/about) — akses Foundation serta status materi Bootcamp.
+- [Tentang FlowJob](https://www.flowjob.id/about) — posisi Trading Journal dan Bootcamp dalam produk.
 - [Dokumentasi pengguna](https://www.flowjob.id/docs/welcome?lang=id) — fungsi dan urutan penggunaan Trading Journal.
 - [Syarat dan Ketentuan](https://www.flowjob.id/terms) — produk, pembayaran, refund, dan batas edukasi.
 
