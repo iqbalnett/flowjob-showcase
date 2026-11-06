@@ -45,19 +45,46 @@ Jurnal adalah alat pencatatan, **bukan rekening broker**: membuat akun pencatata
 
 ## Perjalanan pengguna
 
+Diagram ini mengikuti dua pintu masuk produk: Bootcamp untuk belajar membaca pasar dan Foundation untuk mencatat praktik. Keduanya dapat digunakan sebagai satu proses, tetapi jurnal tidak mewajibkan pembelian Bootcamp. Cabang “tidak ada trade” menunjukkan bahwa evaluasi sesi tetap berguna tanpa memaksakan transaksi.
+
 ```mermaid
 flowchart TD
-    A[Kenali FlowJob] --> B{Pilih kebutuhan}
-    B -->|Belajar membaca pasar| C[Bootcamp: empat pilar pembelajaran]
-    B -->|Mencatat praktik| D[Foundation: jurnal dasar gratis]
-    C --> E[Amati konteks, lokasi, dan bukti]
-    E --> F[Praktik dan catat keputusan]
-    D --> F
-    F --> G[Tinjau hasil dan proses]
-    G --> F
+    A[Kenali metode FlowJob di beranda] --> B{Kebutuhan utama?}
+    B -->|Belajar| C[Lihat empat pilar dan silabus]
+    B -->|Mencatat| D[Pelajari fitur Trading Journal]
+    C --> E[Periksa penawaran dan ketentuan Bootcamp]
+    E --> F{Ingin membeli?}
+    F -->|Ya| G[Masuk dengan Discord]
+    F -->|Belum| D
+    D --> H[Masuk dengan Discord]
+    G --> I[Pilih Bootcamp dan selesaikan pembayaran]
+    I --> J[Jelajahi materi sesuai akses akun]
+    J --> K[Hubungkan Pondasi: instrumen, pasar, dan risiko]
+    K --> L[Order Flow: transaksi, likuiditas, respons harga]
+    L --> M[Options Flow: aktivitas dan batas interpretasi]
+    M --> N[Makro: ekspektasi dan reaksi pasar]
+    N --> O[Susun pertanyaan tentang konteks, lokasi, bukti, dan invalidasi]
+    H --> P[Akses Foundation: jurnal gratis]
+    O --> P
+    P --> Q[Buat akun pencatatan Live atau Forward Test]
+    Q --> R[Pilih model setup atau tulis aturan model sendiri]
+    R --> S[Isi Daily Journal sebelum sesi]
+    S --> T[Catat bias, rencana setup, batas risiko, dan kondisi diri]
+    T --> U{Ada trade untuk dicatat?}
+    U -->|Tidak| V[Catat kondisi sesi dan alasan menunggu dalam ulasan harian]
+    U -->|Ya| W[Catat trade pada akun dan model yang tepat]
+    W --> X[Isi instrumen, arah, entry, risiko, ukuran, dan hasil]
+    X --> Y[Tambahkan alasan, penilaian eksekusi, emosi, dan bukti visual]
+    V --> Z[Isi ulasan sesudah sesi]
+    Y --> Z
+    Z --> AA[Bandingkan rencana dengan eksekusi dan catat pelajaran]
+    AA --> AB[Tinjau riwayat trade, Daily Journal, dan Analytics]
+    AB --> AC[Periksa pola per akun, model, hasil, dan disiplin]
+    AC --> AD[Sesuaikan aturan model dan rencana sesi jika perlu]
+    AD --> S
 ```
 
-Bootcamp menyediakan jalur edukasi; Foundation dapat digunakan untuk mencatat praktik tanpa membeli Bootcamp. Keduanya bertemu pada kebiasaan meninjau keputusan, bukan pada pemberian sinyal trading.
+“Akun pencatatan” di diagram berarti pengelompokan jurnal, bukan rekening broker atau pengiriman order. Alur pembelian diringkas pada tingkat pengalaman pengguna; metode bayar dan hak akses yang berlaku mengikuti website dan ketentuan saat transaksi.
 
 ## Keputusan produk
 
