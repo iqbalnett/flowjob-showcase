@@ -4,12 +4,73 @@
 
 [Website FlowJob](https://www.flowjob.id/)
 
+## Kontribusi pengembangan saya
+
+**Saya mengembangkan FlowJob sebagai produk web yang menghubungkan pencatatan trading, evaluasi keputusan, dan akses pembelajaran.** Pekerjaannya bukan hanya membuat landing page: saya menangani pembagian pengalaman pengguna, penyajian status materi, konsistensi antarmuka, dan perubahan produk tanpa menyamakan fitur yang direncanakan dengan fitur yang sudah tersedia.
+
+Bagian ini merangkum pekerjaan pada project milik saya; bukan klaim bahwa seluruh kode ditulis seorang diri. Detail implementasi tetap privat. Hasil yang disebutkan adalah perilaku produk atau keluaran pekerjaan, bukan angka dampak bisnis yang belum diukur.
+
+### Apa yang saya bangun dan kerjakan
+
+| Area pekerjaan | Kontribusi konkret | Hasil yang dapat dijelaskan |
+| --- | --- | --- |
+| Pengalaman jurnal | Mengembangkan alur akun pencatatan, model, transaksi, catatan harian, dan evaluasi sebagai bagian yang saling terkait | Pengguna dapat memisahkan konteks latihan dan Live, lalu meninjau keputusan di balik hasil transaksi |
+| Penyajian pembelajaran | Mengintegrasikan pembaca Bab 1 dan membedakan materi terbit dari bab yang masih direncanakan | Katalog tidak memperlakukan seluruh silabus sebagai materi siap dibaca |
+| Konsistensi informasi produk | Menyelaraskan penjelasan ketersediaan pada katalog, halaman informasi, dan pengalaman sebelum pembelian | Ekspektasi akses tidak hanya dijelaskan setelah pengguna membeli |
+| Visualisasi konsep | Menyusun presentasi empat pilar pembelajaran dengan diagram konsep di beranda | Pengunjung memperoleh gambaran pendekatan belajar tanpa membuka materi berbayar |
+| Antarmuka yang konsisten | Menata aturan visual workspace, tipografi bacaan, keadaan komponen, dan perilaku responsif | Halaman aplikasi dan materi tidak diperlakukan sebagai desain terpisah tanpa aturan bersama |
+| Pemeriksaan perubahan | Mendokumentasikan pemeriksaan tipe, build, regresi, akses pengguna, navigasi materi, dan ukuran layar | Perubahan dinilai dari perilaku yang perlu tetap benar, bukan hanya tampilan halaman utama |
+
+### Kasus engineering yang bisa saya jelaskan saat wawancara
+
+**1. Menerbitkan sebagian kurikulum tanpa menyesatkan pengguna.**
+
+- **Masalah:** jumlah bab dalam silabus dapat terlihat seperti jumlah materi yang sudah bisa dibaca, sementara akses akun dan status publikasi adalah dua hal berbeda.
+- **Keputusan saya:** memisahkan penjelasan cakupan silabus, status penerbitan, dan kebutuhan akses; mengintegrasikan pembaca hanya untuk materi yang sudah tersedia.
+- **Hasil pekerjaan:** Bab 1 dikenali sebagai materi tersedia, sedangkan bab lainnya tetap ditandai sebagai rencana. Penjelasan produk sebelum pembelian mengikuti pembedaan tersebut.
+- **Yang perlu diperiksa:** pengguna tanpa akses tidak memperoleh materi anggota; navigasi ke bab belum terbit tidak memberikan kesan bahwa konten sudah tersedia. Ini menjelaskan sasaran pemeriksaan, bukan membuka mekanisme otorisasi.
+
+**2. Membuat evaluasi jurnal lebih dari daftar untung-rugi.**
+
+- **Masalah:** hasil transaksi saja tidak menjelaskan apakah pengguna mengikuti rencana, memakai setup yang sama, atau mencampur latihan dengan aktivitas Live.
+- **Keputusan saya:** memisahkan konteks akun, model, catatan transaksi, dan catatan harian, lalu menghubungkannya dengan peninjauan riwayat.
+- **Hasil pekerjaan:** pengguna mempunyai konteks untuk membaca ringkasan, bukan hanya angka hasil. Penilaian disiplin dan emosi tetap diperlakukan sebagai input pengguna, bukan diagnosis otomatis.
+- **Trade-off:** pencatatan lebih terstruktur membutuhkan kedisiplinan mengisi data. Saya tidak memposisikan grafik sebagai bukti bahwa strategi pasti menguntungkan.
+
+**3. Mengintegrasikan halaman baca sebagai bagian dari aplikasi.**
+
+- **Masalah:** halaman materi perlu nyaman dibaca, tetapi juga harus konsisten dengan akses, navigasi, dan pengalaman pengguna aplikasi.
+- **Keputusan saya:** membawa materi yang disetujui ke pengalaman anggota, menjaga struktur paragraf, navigasi bagian, dan responsivitas; tidak mempertahankan kontrol interaktif yang tidak diperlukan oleh materi.
+- **Hasil pekerjaan:** pembaca memiliki struktur isi yang jelas, sementara status penerbitan tetap selaras dengan katalog.
+- **Trade-off:** mengutamakan keterbacaan dan tujuan materi dibanding menambah animasi atau simulasi hanya untuk terlihat kompleks.
+
+### Kualitas dan batas bukti
+
+Dokumentasi pengembangan mencatat pemeriksaan build, tipe, lint, regresi, perbedaan akses, navigasi bab, serta bacaan pada ukuran layar ponsel hingga desktop. Catatan tersebut merupakan bukti proses pengembangan, **bukan laporan bahwa semua pemeriksaan dijalankan ulang untuk pembaruan portofolio ini**. Source dan hasil internal tidak disalin ke repo publik.
+
+Yang dapat ditinjau langsung adalah website publik, penjelasan produk, dan dokumentasi pengguna. Perilaku jurnal anggota dijelaskan berdasarkan dokumentasi; showcase ini tidak menyertakan akun pelanggan, data jurnal, atau rekaman sesi privat.
+
+### Panduan peninjauan untuk recruiter
+
+1. Buka [beranda](https://www.flowjob.id/) untuk menilai hierarki informasi dan penyajian empat pilar.
+2. Bandingkan dengan [halaman About](https://www.flowjob.id/about): perhatikan pemisahan jurnal gratis, akses Bootcamp, dan status materi.
+3. Baca [panduan jurnal](https://www.flowjob.id/docs/welcome) untuk melihat bagaimana akun, model, transaksi, dan evaluasi membentuk pengalaman produk.
+4. Gunakan kasus engineering di atas sebagai bahan diskusi: keputusan, alternatif, risiko perubahan, dan bukti perilaku. Tidak perlu membeli atau mengakses materi anggota untuk meninjau bagian publik.
+
+**Kompetensi yang ditunjukkan melalui pekerjaan:** pengembangan antarmuka aplikasi berbasis akun, pemodelan alur pengguna, penanganan status fitur, desain responsif, konsistensi pengalaman, dokumentasi, dan pemeriksaan regresi. Klaim ini tidak menggantikan wawancara teknis atau penilaian kemampuan secara langsung.
+
+## Gambaran produk
+
 FlowJob membantu trader mendokumentasikan keputusan, bukan mencari sinyal. Produk ini menggabungkan aplikasi jurnal berbasis web, materi edukasi dengan akses Bootcamp, dan komunitas Discord. Pengguna dapat mulai dari jurnal gratis tanpa membeli materi belajar. Lihat [Tentang FlowJob](https://www.flowjob.id/about).
 
 Studi kasus ini membahas tujuan produk, penggunaan jurnal, pembagian akses, pengalaman belajar, dan keputusan pembelian. Informasi ketersediaan mengacu pada halaman publik yang ditinjau pada **6 November 2026**. Rincian fitur merupakan penjelasan dokumentasi pengguna, bukan hasil pengujian area anggota.
 
 ## Daftar isi
 
+- [Kontribusi pengembangan saya](#kontribusi-pengembangan-saya)
+- [Kasus engineering](#kasus-engineering-yang-bisa-saya-jelaskan-saat-wawancara)
+- [Kualitas dan batas bukti](#kualitas-dan-batas-bukti)
+- [Panduan peninjauan untuk recruiter](#panduan-peninjauan-untuk-recruiter)
 - [Tampilan beranda](#tampilan-beranda)
 - [Masalah yang ingin diselesaikan](#masalah-yang-ingin-diselesaikan)
 - [Kebutuhan pengguna baru dan pengguna kembali](#kebutuhan-pengguna-baru-dan-pengguna-kembali)
