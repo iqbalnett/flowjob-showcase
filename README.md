@@ -6,6 +6,10 @@ FlowJob dikembangkan oleh Iqbal sebagai **Founder & Solo Developer**. Produk ini
 
 [**Buka FlowJob**](https://www.flowjob.id/) · [Tentang produk](https://www.flowjob.id/about) · [Panduan jurnal](https://www.flowjob.id/docs/welcome?lang=id)
 
+![Beranda publik FlowJob dengan visualisasi Volume Profile dan pintu masuk jurnal serta jalur belajar](images/homepage.webp)
+
+*Tampilan beranda publik: visualisasi Volume Profile memperkenalkan cara membaca konteks pasar, bukan sinyal transaksi.*
+
 ## Mengapa FlowJob dibuat
 
 Hasil sebuah transaksi tidak menceritakan proses yang menghasilkan keputusan itu. Trade yang untung bisa saja melanggar rencana; trade yang rugi bisa tetap dijalankan sesuai aturan. Ketika catatan tersebar di spreadsheet, gambar, dan ingatan, membedakan keduanya menjadi sulit.
