@@ -1,72 +1,83 @@
 # FlowJob
 
-**Jurnal trading untuk meninjau keputusan, dengan jalur belajar yang memberi konteks pada praktiknya.**
+**Bootcamp edukasi futures dengan Trading Journal untuk mencatat dan meninjau keputusan.**
 
-FlowJob dikembangkan oleh Iqbal sebagai **Founder & Solo Developer**. Produk ini menghubungkan pencatatan transaksi, rencana harian, dan evaluasi dengan pembelajaran pasar. Jurnal dasar dapat digunakan gratis; akses materi mengikuti ketentuan Bootcamp.
+FlowJob membantu pembelajar memahami apa yang diperdagangkan, bagaimana transaksi terbentuk, dan cara menilai bukti sebelum mengambil keputusan. Bootcamp menyusun pembelajaran melalui empat pilar; Trading Journal memberi tempat untuk mendokumentasikan rencana, transaksi, dan evaluasi. Keduanya saling melengkapi, tetapi jurnal dasar dapat digunakan tanpa membeli Bootcamp.
 
-[**Buka FlowJob**](https://www.flowjob.id/) · [Tentang produk](https://www.flowjob.id/about) · [Panduan jurnal](https://www.flowjob.id/docs/welcome?lang=id)
+Saya membangun FlowJob sebagai **Founder & Solo Developer**, dari arah produk dan struktur pembelajaran hingga pengalaman aplikasi berbasis akun.
 
-![Beranda publik FlowJob dengan visualisasi Volume Profile dan pintu masuk jurnal serta jalur belajar](images/homepage.webp)
+[Kunjungi FlowJob](https://www.flowjob.id/) · [Lihat jalur belajar](https://www.flowjob.id/?lang=id#curriculum) · [Baca panduan jurnal](https://www.flowjob.id/docs/welcome?lang=id)
 
-*Tampilan beranda publik: visualisasi Volume Profile memperkenalkan cara membaca konteks pasar, bukan sinyal transaksi.*
+![Beranda publik FlowJob dengan visualisasi Volume Profile dan pintu masuk ke metode serta jalur belajar](images/homepage.webp)
 
-## Mengapa FlowJob dibuat
+## Mengapa FlowJob ada
 
-Hasil sebuah transaksi tidak menceritakan proses yang menghasilkan keputusan itu. Trade yang untung bisa saja melanggar rencana; trade yang rugi bisa tetap dijalankan sesuai aturan. Ketika catatan tersebar di spreadsheet, gambar, dan ingatan, membedakan keduanya menjadi sulit.
+Grafik menunjukkan hasil pergerakan harga, tetapi tidak selalu menjelaskan transaksi di baliknya. Sebaliknya, catatan untung-rugi tidak menjelaskan apakah sebuah keputusan dibuat dengan alasan yang dapat dipertanggungjawabkan. FlowJob menyatukan dua kebutuhan yang sering terpisah: **belajar membaca konteks pasar** dan **meninjau keputusan sendiri secara terstruktur**.
 
-FlowJob menempatkan rencana, transaksi, dan ulasan dalam satu alur. Tujuannya bukan memberikan sinyal atau menjanjikan profit, melainkan membantu pengguna membaca kembali apa yang mereka putuskan dan apa yang terjadi setelahnya.
+Pendekatannya berangkat dari empat pertanyaan: apa konteks pasar, di mana area yang relevan, bukti apa yang terlihat pada transaksi dan respons harga, serta apa yang perlu dicatat setelah keputusan dibuat. Ini kerangka belajar dan evaluasi, bukan metode pemberian sinyal.
 
-## Tampilan produk
+## Apa yang ditawarkan
 
-### Jalur belajar: empat sudut pandang
+### Bootcamp: belajar membaca pasar
 
-![Bagian Jalur Belajar FlowJob di desktop, menampilkan diagram Pondasi, Order Flow, Options Flow, dan Makro](images/learning-pillars-desktop.webp)
+Jalur belajar disusun dalam **28 bab silabus** pada empat pilar:
 
-Beranda memperkenalkan **Pondasi, Order Flow, Options Flow, dan Makro** sebagai empat perspektif untuk membaca pasar. Diagram memberi orientasi tanpa menampilkan isi materi anggota. Angka bab pada silabus menunjukkan cakupan rencana, bukan jumlah bab yang sudah terbit. [Lihat jalur belajar](https://www.flowjob.id/?lang=id#curriculum).
+| Pilar | Cakupan pembelajaran | Bab dalam silabus |
+| --- | --- | ---: |
+| **Pondasi** | Instrumen, tempat transaksi, risiko, dan dasar pembacaan chart. | 6 |
+| **Order Flow** | Transaksi, likuiditas, dan respons harga. | 9 |
+| **Options Flow** | Kontrak options, perubahan risiko, dan batas interpretasi aktivitas options. | 7 |
+| **Makro** | Data ekonomi, ekspektasi, kebijakan, dan reaksi antarpasar. | 6 |
 
-### Dokumentasi: titik masuk ke jurnal
+![Bagian Jalur Belajar FlowJob yang memperlihatkan empat pilar dan visual konsep masing-masing](images/learning-pillars-desktop.webp)
 
-![Bagian atas dokumentasi FlowJob di desktop, menampilkan pengantar dan navigasi topik](images/journal-guide-desktop.webp)
+**Status materi penting:** per [halaman Tentang FlowJob](https://www.flowjob.id/about), pada 7 November 2026 **Bab 1 dan 2 tersedia dengan akses Bootcamp; 26 bab lainnya masih direncanakan**. Angka 28 menjelaskan cakupan silabus, bukan jumlah bab yang sudah bisa dibaca. Materi lama tidak lagi tersedia. Tidak ada jadwal terbit untuk bab yang direncanakan dalam README ini; periksa status terbaru dan hak akses di website sebelum membeli.
 
-Panduan publik menghubungkan akun pencatatan, model, trade, dan Analytics. Gambar ini adalah potongan bagian atas halaman; rincian model trading tidak ditampilkan. [Buka panduan memulai](https://www.flowjob.id/docs/welcome?lang=id).
+Bootcamp merupakan produk edukasi **sekali bayar**, bukan langganan jurnal. Harga yang ditampilkan di beranda saat peninjauan adalah **Rp3.500.000**; harga dan ketentuan yang berlaku mengikuti halaman pembelian. Broker, data pasar, platform pihak ketiga, dan modal trading tidak termasuk. Bootcamp tidak dijanjikan sebagai kelas live, pendampingan pribadi, sertifikasi, atau akses ke semua bab silabus hari ini.
 
-### Navigasi pada layar kecil
+### Trading Journal: menilai praktik sendiri
 
-<img src="images/public-navigation-mobile.webp" width="340" alt="Menu FlowJob terbuka pada layar ponsel dengan navigasi jurnal, komunitas, bantuan, dan pilihan bahasa">
+**Foundation** memberi akses gratis ke jurnal dasar. Pengguna dapat memisahkan catatan Live dan Forward Test melalui akun pencatatan, menulis aturan setup pada Model, mencatat trade beserta risiko dan alasan eksekusinya, lalu menulis rencana dan evaluasi harian. Analytics membantu membaca pola dari riwayat yang diisi pengguna; ia tidak memutuskan apakah sebuah trade layak diambil.
 
-Menu menjaga pintu masuk jurnal, komunitas, bantuan, dan bahasa tetap tersedia pada lebar ponsel. Ketiga cuplikan diambil dari halaman publik tanpa login pada **7 November 2026 (WIB)**; tidak menggambarkan sesi anggota.
+![Pengantar dokumentasi publik FlowJob tentang akun, model, trade, dan penggunaan jurnal](images/journal-guide-desktop.webp)
 
-## Cara produk bekerja
+Jurnal adalah alat pencatatan, **bukan rekening broker**: membuat akun pencatatan tidak membuka rekening transaksi atau mengirim order. Rincian alurnya ada di [panduan akun](https://www.flowjob.id/docs/getting-started/your-first-account), [trade pertama](https://www.flowjob.id/docs/getting-started/your-first-trade), dan [Analytics](https://www.flowjob.id/docs/analytics/overview).
 
-**Catat konteks sebelum menilai hasil.** Akun pencatatan memisahkan aktivitas Live dan Forward Test; model mendokumentasikan aturan setup yang dipilih pengguna. Trade Journal mengaitkan transaksi dengan akun, model, risiko, dan catatan eksekusi. Daily Journal memberi tempat untuk rencana sebelum sesi dan evaluasi sesudahnya. Analytics kemudian membantu membaca pola dalam riwayat yang dicatat—bukan menentukan apakah suatu keputusan pasti benar.
+## Perjalanan pengguna
 
-Pemisahan ini disengaja: satu angka P&L tidak menggantikan alasan entry, kepatuhan pada rencana, atau kondisi saat keputusan dibuat. Semakin lengkap catatan yang diisi pengguna, semakin masuk akal ulasannya; penilaian emosi dan disiplin tetap merupakan input pengguna, bukan diagnosis otomatis. Alur ini dijelaskan dalam [panduan akun](https://www.flowjob.id/docs/getting-started/your-first-account), [trade pertama](https://www.flowjob.id/docs/getting-started/your-first-trade), [Daily Journal](https://www.flowjob.id/docs/journal/daily-entries), dan [Analytics](https://www.flowjob.id/docs/analytics/overview).
+```mermaid
+flowchart TD
+    A[Kenali metode dan penawaran FlowJob] --> B{Kebutuhan utama}
+    B -->|Mencatat praktik| C[Foundation: Trading Journal dasar gratis]
+    B -->|Belajar terstruktur| D[Periksa silabus dan status materi]
+    D --> E{Memilih Bootcamp?}
+    E -->|Belum| C
+    E -->|Ya| F[Pembelian sekali bayar dan akses Bootcamp]
+    F --> G[Baca Bab 1–2 yang tersedia]
+    G --> H[Terapkan pemahaman dalam praktik sendiri]
+    C --> H
+    H --> I[Catat rencana, trade, dan evaluasi]
+    I --> J[Tinjau riwayat dan pelajaran]
+    J --> H
+```
 
-**Belajar tanpa mencampur silabus dan ketersediaan.** Jalur belajar memetakan **28 bab dalam empat pilar**, tetapi peta itu bukan katalog materi yang telah selesai. Pada **7 November 2026**, halaman [Tentang FlowJob](https://www.flowjob.id/about) menyatakan **Bab 1 dan 2 tersedia dengan akses Bootcamp; 26 bab lainnya masih direncanakan**. Materi lama tidak lagi tersedia. Status terkini selalu mengikuti website, bukan angka yang dibekukan di README ini.
+Diagram menunjukkan hubungan dua jalur produk, **bukan** urutan layar pembayaran atau janji bahwa bab yang masih direncanakan sudah tersedia. Jurnal tetap berguna tanpa pembelian; Bootcamp memberi kerangka belajar yang dapat dibawa ke proses pencatatan dan ulasan.
 
-Jurnal dasar Foundation tetap gratis; Bootcamp adalah pembelian terpisah untuk akses edukasi sesuai materi yang tersedia dan [ketentuan produk](https://www.flowjob.id/terms). Pengguna tidak perlu membeli Bootcamp untuk mulai mencatat trade. Layanan broker, data pasar, dan modal trading tidak termasuk dalam FlowJob.
+## Keputusan produk
 
-## Keputusan pengembangan
+**Pisahkan silabus dari inventaris materi.** Empat pilar memperlihatkan arah belajar, tetapi status setiap bab harus tetap jelas sebelum pembelian. Menampilkan 28 judul tanpa membedakan bab terbit akan menciptakan ekspektasi yang keliru.
 
-### Menilai proses, bukan hanya hasil
+**Pisahkan hasil dari kualitas keputusan.** Trade yang untung belum tentu mengikuti rencana; trade yang rugi belum tentu keliru dalam prosesnya. Karena itu jurnal menghubungkan akun, model, rincian transaksi, dan catatan harian sebelum hasilnya ditinjau melalui Analytics.
 
-Jurnal memisahkan akun, model, trade, dan catatan harian agar transaksi tidak menjadi angka untung-rugi tanpa konteks. Catatan sebelum dan sesudah sesi punya fungsi berbeda: rencana awal tidak boleh ditulis ulang seolah-olah sudah diketahui setelah melihat hasil. Struktur ini meminta lebih banyak kedisiplinan mengisi data, tetapi membuat riwayat lebih berguna untuk ditinjau.
+**Jaga batas antara edukasi dan eksekusi.** Contoh pasar menjelaskan cara membaca informasi; jurnal merekam keputusan pengguna. FlowJob tidak menyediakan sinyal, copy trading, pengelolaan dana, atau rekomendasi transaksi personal.
 
-### Memisahkan rencana kurikulum dari materi terbit
+## Sumber dan batas studi kasus
 
-Keempat pilar perlu terlihat agar calon pembelajar memahami arah produk. Namun, tampilan silabus tidak boleh membuat bab yang direncanakan terlihat siap dibaca. Karena itu status materi dan aksesnya dijelaskan terpisah dari jumlah bab. Pembaca dapat memahami apa yang tersedia sebelum mengambil keputusan membeli.
+- [Beranda FlowJob](https://www.flowjob.id/) — metode, empat pilar, penawaran, dan biaya di luar produk.
+- [Tentang FlowJob](https://www.flowjob.id/about) — akses Foundation serta status materi Bootcamp.
+- [Dokumentasi pengguna](https://www.flowjob.id/docs/welcome?lang=id) — fungsi dan urutan penggunaan Trading Journal.
+- [Syarat dan Ketentuan](https://www.flowjob.id/terms) — produk, pembayaran, refund, dan batas edukasi.
 
-### Menjaga batas antara edukasi dan eksekusi
-
-Visualisasi pasar dan panduan jurnal dipakai untuk membangun proses observasi, pencatatan, dan ulasan. FlowJob tidak membuka rekening broker, mengirim order, atau memberikan sinyal. Pemisahan ini penting agar pembaca tidak menganggap sebuah diagram pasar sebagai instruksi transaksi.
-
-## Jelajahi FlowJob
-
-- [Beranda](https://www.flowjob.id/) — pendekatan belajar, jurnal, dan jalur materi.
-- [Tentang FlowJob](https://www.flowjob.id/about) — status materi dan akses yang berlaku.
-- [Dokumentasi pengguna](https://www.flowjob.id/docs/welcome?lang=id) — panduan jurnal dan penjelasan fitur.
-- [Syarat dan Ketentuan](https://www.flowjob.id/terms) — ketentuan akses, pembayaran, dan batas layanan.
-
-Repo ini adalah showcase produk, bukan source aplikasi. Cuplikan hanya berasal dari halaman publik; kode, materi anggota, konfigurasi, dan data pengguna tetap privat. Perdagangan futures dan derivatif berisiko; FlowJob bukan penyedia sinyal atau nasihat keuangan.
+Gambar berasal dari halaman publik tanpa login pada 7 November 2026 (WIB); studi kasus ini tidak menampilkan materi anggota atau data jurnal pengguna. Repositori ini berisi uraian produk, bukan kode aplikasinya. Perdagangan futures dan derivatif berisiko; materi FlowJob bukan nasihat keuangan.
 
 © 2026 FlowJob. All rights reserved.
