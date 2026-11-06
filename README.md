@@ -2,13 +2,54 @@
 
 **Trading Journal dan jalur belajar trading untuk pengguna Indonesia.**
 
+**Peran saya: Founder, Owner & Solo Developer.** Saya mendirikan, memiliki, dan mengembangkan FlowJob sendiri, dari keputusan produk hingga implementasi antarmuka dan pemeliharaan.
+
 [Website FlowJob](https://www.flowjob.id/)
+
+## Bukti visual produk
+
+Tiga cuplikan asli dari halaman publik, diambil pada **7 November 2026 (WIB)** tanpa login. Visual memperlihatkan pekerjaan saya pada penyajian pembelajaran, dokumentasi jurnal, dan navigasi responsif; bukan demonstrasi dashboard atau data anggota.
+
+### Empat pilar pembelajaran · desktop
+
+![Screenshot asli bagian Jalur Belajar FlowJob: diagram Pondasi, Order Flow, Options Flow, dan Makro pada desktop](images/learning-pillars-desktop.webp)
+
+Saya menerjemahkan empat pilar menjadi diagram konsep dan hierarki informasi yang dapat dibaca sebelum membeli. Jumlah bab pada gambar adalah cakupan silabus, bukan jumlah materi terbit. [Lihat bagian publik](https://www.flowjob.id/?lang=id#curriculum).
+
+### Dokumentasi jurnal · desktop
+
+![Pengantar dan navigasi dokumentasi publik FlowJob pada desktop](images/journal-guide-desktop.webp)
+
+Saya menyusun titik masuk dokumentasi untuk akun, model, dan trade. Cuplikan dibatasi pada pengantar dan navigasi publik; tidak menampilkan rincian model trading atau jurnal pengguna.
+
+### Navigasi publik · mobile
+
+<img src="images/public-navigation-mobile.webp" width="340" alt="Navigasi publik FlowJob terbuka pada layar ponsel, dengan pilihan jurnal, komunitas, bantuan, dan bahasa">
+
+Saya menangani navigasi responsif: akses jurnal, komunitas, bantuan, dan bahasa tetap tersedia pada layar kecil. Gambar tidak menunjukkan sesi anggota.
+
+Kedua tampilan berasal dari [panduan memulai](https://www.flowjob.id/docs/welcome?lang=id). Tidak ada data pelanggan, kredensial, atau materi berbayar dalam cuplikan ini.
+
 
 ## Kontribusi pengembangan saya
 
 **Saya mengembangkan FlowJob sebagai produk web yang menghubungkan pencatatan trading, evaluasi keputusan, dan akses pembelajaran.** Pekerjaannya bukan hanya membuat landing page: saya menangani pembagian pengalaman pengguna, penyajian status materi, konsistensi antarmuka, dan perubahan produk tanpa menyamakan fitur yang direncanakan dengan fitur yang sudah tersedia.
 
-Bagian ini merangkum pekerjaan pada project milik saya; bukan klaim bahwa seluruh kode ditulis seorang diri. Detail implementasi tetap privat. Hasil yang disebutkan adalah perilaku produk atau keluaran pekerjaan, bukan angka dampak bisnis yang belum diukur.
+Sebagai Founder, Owner & Solo Developer, saya bertanggung jawab atas arah produk dan pengembangannya. Detail implementasi tetap privat. Hasil yang disebutkan adalah perilaku produk atau keluaran pekerjaan, bukan angka dampak bisnis yang belum diukur.
+
+### Cakupan tanggung jawab saya
+
+```mermaid
+flowchart TD
+    A["Founder, Owner & Solo Developer"] --> B["Arah produk"]
+    A --> C["Implementasi"]
+    A --> D["Pemeliharaan"]
+    B --> E["Jurnal, pembelajaran, dan batas akses"]
+    C --> F["Alur jurnal, pembaca materi, dan UI responsif"]
+    D --> G["Konsistensi informasi, dokumentasi, dan regresi"]
+```
+
+Diagram ini memetakan tanggung jawab saya, bukan arsitektur backend atau perjalanan pengguna. Rincian pekerjaan dan batas buktinya dijelaskan di bawah.
 
 ### Apa yang saya bangun dan kerjakan
 
@@ -67,7 +108,9 @@ Studi kasus ini membahas tujuan produk, penggunaan jurnal, pembagian akses, peng
 
 ## Daftar isi
 
+- [Bukti visual produk](#bukti-visual-produk)
 - [Kontribusi pengembangan saya](#kontribusi-pengembangan-saya)
+- [Cakupan tanggung jawab saya](#cakupan-tanggung-jawab-saya)
 - [Kasus engineering](#kasus-engineering-yang-bisa-saya-jelaskan-saat-wawancara)
 - [Kualitas dan batas bukti](#kualitas-dan-batas-bukti)
 - [Panduan peninjauan untuk recruiter](#panduan-peninjauan-untuk-recruiter)
