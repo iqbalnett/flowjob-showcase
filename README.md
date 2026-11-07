@@ -86,6 +86,60 @@ flowchart TD
 
 “Akun pencatatan” di diagram berarti pengelompokan jurnal, bukan rekening broker atau pengiriman order. Alur pembelian diringkas pada tingkat pengalaman pengguna; metode bayar dan hak akses yang berlaku mengikuti website dan ketentuan saat transaksi.
 
+## Di balik FlowJob: rancangan full-stack
+
+Sebagai **Founder & Solo Developer**, saya mengerjakan pengalaman produk dari antarmuka publik dan workspace anggota sampai autentikasi, model data, API, integrasi pembayaran, dan panel operasional. Bagian ini memetakan tanggung jawab sistem pada tingkat arsitektur; repositori showcase ini tidak menyertakan kode aplikasi, data pelanggan, konfigurasi, atau kredensial.
+
+### Fitur dan tanggung jawabnya
+
+| Area | Yang saya bangun | Alur data |
+| --- | --- | --- |
+| **Situs publik dan jalur belajar** | Beranda, penjelasan metode, katalog kurikulum, dokumentasi, dan antarmuka materi. | Konten publik mengenalkan produk; materi anggota dibuka sesuai hak akses akun. |
+| **Identitas dan akses** | Login Discord melalui Supabase Auth, profil anggota, sesi, dan tingkat akses Foundation/Bootcamp. | Identitas masuk → profil dan hak akses dibaca di server → workspace disesuaikan dengan akun. |
+| **Trading Journal** | Akun pencatatan, model/playbook, trade, jurnal harian, lampiran chart, dan Analytics. | Form → API tervalidasi → data milik anggota di PostgreSQL → statistik dan tampilan review. |
+| **Billing** | Checkout Bootcamp dengan Midtrans Snap, promosi, riwayat pembayaran, dan pemberian akses. | Pesanan terikat akun → pembayaran di gateway → konfirmasi server → entitlement diperbarui. |
+| **Operasional** | Dashboard anggota dan administrasi untuk pembayaran, akses, komunikasi, serta sinkronisasi komunitas. | Tindakan staf/owner dipisahkan menurut kewenangan; riwayat pembayaran dan perubahan akses tetap tercatat. |
+| **Kontrol data** | Pengaturan profil publik, ekspor jurnal, dan permintaan penghapusan data jurnal. | Pengguna menentukan apa yang dibagikan; data pribadi tetap berada di jalur akses anggota. |
+
+### Peta sistem
+
+```mermaid
+flowchart TB
+    V[Pengunjung dan anggota] --> UI[Next.js App Router + React]
+    UI --> PUB[Halaman publik dan dokumentasi]
+    UI --> AUTH[Login Discord melalui Supabase Auth]
+    AUTH --> SESSION[Sesi, profil, dan hak akses]
+    SESSION --> WORK[Workspace anggota]
+    WORK --> LEARN[Katalog dan materi sesuai akses]
+    WORK --> JOURNAL[Trading Journal dan Analytics]
+    WORK --> BILL[Checkout dan riwayat pembayaran]
+    WORK --> PROFILE[Profil dan kontrol data]
+    JOURNAL --> API[API dan logika domain di server]
+    PROFILE --> API
+    BILL --> API
+    API --> DB[(Supabase PostgreSQL)]
+    JOURNAL --> IMG[Unggah screenshot melalui server]
+    IMG --> STORE[(Supabase Storage privat)]
+    API --> GATE[Midtrans Snap]
+    GATE --> CONFIRM[Konfirmasi pembayaran di server]
+    CONFIRM --> DB
+    DB --> SESSION
+    API --> DISCORD[Sinkronisasi role Discord]
+    ADMIN[Panel admin: anggota dan pembayaran] --> API
+```
+
+**Stack:** Next.js 15, React, TypeScript, Tailwind CSS, Supabase (Auth, PostgreSQL, Storage), Midtrans Snap, dan Discord. Redis dipakai untuk pembatasan permintaan; Vercel Cron membantu rekonsiliasi pembayaran. Pengujian proyek menggunakan Vitest dan Playwright. Nama layanan dan perannya dicantumkan untuk menjelaskan arsitektur, bukan untuk membuka konfigurasi integrasi.
+
+### Bagaimana tiap alur bekerja
+
+**Akun dan akses.** Login Discord diteruskan melalui Supabase Auth. Setelah sesi terbentuk, server memuat profil serta tingkat akses pengguna. Foundation memberi akses Trading Journal; Bootcamp menambahkan akses edukasi sesuai hak akun. Role Discord disinkronkan sebagai pelengkap komunitas, bukan sebagai penentu utama akses aplikasi.
+
+**Data jurnal.** Anggota dapat membuat akun pencatatan Live atau Forward Test, menulis aturan pada model, mencatat trade dan refleksi harian, lalu menyaring Analytics berdasarkan riwayat yang tersedia. API membatasi operasi pada pengguna yang sedang masuk; tabel jurnal memiliki kebijakan kepemilikan data di database. Perhitungan trade dilakukan di server, dan perubahan trade beserta saldo akun dicatat melalui transaksi database. Screenshot diproses melalui server, disimpan di Storage privat, lalu ditampilkan melalui tautan sementara. Akun pencatatan bukan rekening broker, dan hasil jurnal bukan verifikasi saldo broker.
+
+**Pembayaran hingga akses.** Checkout membuat pesanan yang terikat pada akun, lalu Midtrans menangani proses pembayaran. Konfirmasi dari gateway diverifikasi di server sebelum status transaksi diproses dan hak Bootcamp diberikan. Pemrosesan memperhitungkan notifikasi berulang atau terlambat; rekonsiliasi terjadwal menjadi jalur pemulihan. Akses anggota mengikuti entitlement di database. Sinkronisasi role Discord dan notifikasi dapat menyusul tanpa dijadikan syarat pembayaran dianggap selesai.
+
+**Administrasi dan privasi.** Panel operasional memisahkan tugas staf dari perubahan finansial dan hak akses yang khusus owner. Pengelolaan anggota, pemeriksaan pembayaran, promosi, dan audit tersedia untuk operasi produk. Pencatatan refund administratif tidak mengirim dana otomatis melalui aplikasi. Dari sisi anggota, ekspor jurnal dan kontrol profil publik memberi kendali atas data yang dapat diunduh atau ditampilkan; permintaan penghapusan jurnal memiliki proses tersendiri.
+
 ## Keputusan produk
 
 **Rangkai pembelajaran sebagai satu metode.** Keempat pilar tidak berdiri sebagai daftar topik yang terpisah: Pondasi menjelaskan instrumen dan risiko, Order Flow menambah pembacaan transaksi, Options Flow memperluas konteks posisi, dan Makro menempatkan respons pasar terhadap peristiwa ekonomi. Urutan ini memberi pengguna kerangka pertanyaan sebelum memakai jurnal untuk meninjau praktik.
